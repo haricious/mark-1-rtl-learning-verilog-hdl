@@ -20,7 +20,7 @@ endmodule
 
 module mux21(
     input a,b,
-    input s2
+    input s2,
     output y
 );
 assign y = s2 ? b : a;
