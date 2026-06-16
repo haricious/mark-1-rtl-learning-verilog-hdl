@@ -3,6 +3,6 @@ module top_module (
     input in2,
     output out);
     
-    assign out = in|~in2;
+    assign out=in1&~in2;
 
 endmodule
