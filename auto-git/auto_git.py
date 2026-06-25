@@ -5,7 +5,7 @@ from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 from datetime import datetime
 
-REPO_PATH = r"D:\Projects\Verilog HDL"  # change this
+REPO_PATH = r"/home/haricious/rtl-engineering-lab/rtl-engineering-lab"  # change this
 
 class GitHandler(FileSystemEventHandler):
     last_run = 0
