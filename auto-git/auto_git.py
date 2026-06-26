@@ -16,7 +16,7 @@ class GitHandler(FileSystemEventHandler):
             return
 
         # Debounce multiple rapid events
-        if time.time() - self.last_run < 30:
+        if time.time() - self.last_run < 10:
             return
 
         self.last_run = time.time()
