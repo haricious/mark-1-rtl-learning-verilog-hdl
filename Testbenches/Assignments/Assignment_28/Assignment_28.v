@@ -76,9 +76,5 @@ module tb_down_counter;
         $finish;
     end
 
-    initial begin
-        $monitor("Time=%0t ns | Reset=%b | Load=%b | Load_Data=%b | Count=%b",
-                 $time, reset, load, load_data, count);
-    end
 
 endmodule
